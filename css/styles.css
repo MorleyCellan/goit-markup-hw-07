@@ -55,11 +55,11 @@ img {
   justify-content: space-between;
 }
 
-.container {
+/* .container {
   width: 1158px;
   margin: 0 auto;
   padding: 0 15px;
-}
+} */
 
 .nav {
   display: flex;
@@ -831,4 +831,35 @@ img {
 
 .subscribe-btn-icon {
   margin-left: 16px;
+}
+
+/* desktop display */
+
+@media screen and (min-width: 1158px) {
+  /* HEADER */
+  .container {
+    max-width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+
+  /* Navigation Items */
+  .active::after {
+    bottom: -5%;
+  }
+
+  /* address */
+  .contact-link {
+    font-size: 16px;
+  }
+
+  .address > .list {
+    display: flex;
+    gap: 40px;
+  }
+
+  .list.contact {
+    flex-wrap: nowrap;
+    flex-direction: row;
+  }
 }
