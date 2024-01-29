@@ -1,10 +1,8 @@
-/* CSS Resets */
 * {
   margin: 0;
   padding: 0;
 }
 
-/* CSS Variables */
 :root {
   --slate: #434455;
   --iris: #4d5ae5;
@@ -19,14 +17,12 @@
   --dairy: #fcfcfc;
 }
 
-/* INDEX PAGE */
 body {
   font-family: "Roboto", sans-serif;
   color: var(--slate);
   background-color: var(--white);
 }
 
-/* HEADER */
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 800;
@@ -39,7 +35,6 @@ body {
 
 .header {
   border-bottom: 1px solid var(--cornflower);
-  /* HW4 */
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 }
@@ -48,8 +43,6 @@ body {
 .contacts {
   display: flex;
 }
-
-/* HW7 */
 
 .top-header.container {
   height: 70px;
@@ -63,8 +56,6 @@ body {
   margin: 0 auto;
   padding: 0 15px;
 }
-
-/* Navigation Items */
 
 .link,
 .item-link {
@@ -83,8 +74,6 @@ body {
 .contacts > .list {
   display: none;
 }
-
-/* Mobile Menu */
 
 .menu-toggle {
   display: flex;
@@ -211,8 +200,6 @@ body {
   justify-content: flex-end;
 }
 
-/* Mobile Menu Socmed Logo */
-
 .mobile-menu-socmed {
   display: flex;
   gap: 56px;
@@ -244,11 +231,6 @@ body {
 .mobile-menu-socmed-svg {
   fill: var(--cloud);
 }
-
-/* MAIN */
-
-/* First Section */
-
 .main-header {
   font-size: 36px;
   text-transform: capitalize;
@@ -276,7 +258,6 @@ body {
   border: none;
   border-radius: 4px;
   margin: 0 auto;
-  /* HW5 */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -284,8 +265,6 @@ body {
 .hero-button:focus {
   background-color: var(--ocean);
 }
-
-/* Second Section */
 
 .visually-hidden {
   position: absolute;
@@ -348,14 +327,9 @@ body {
   flex-wrap: wrap;
 }
 
-/* HW4 */
-
 .icon-container {
   display: none;
 }
-
-/* Third Section */
-
 .header-title {
   font-size: 36px;
   line-height: 1.11;
@@ -369,9 +343,6 @@ body {
 .third-section {
   display: none;
 }
-
-/* Fourth Section */
-
 .fourth-section {
   background-color: var(--cloud);
   padding: 96px 0;
@@ -383,8 +354,6 @@ body {
   flex-wrap: wrap;
   justify-content: center;
 }
-
-/* Reused third section header from main */
 
 .team-member {
   background-color: var(--white);
@@ -408,14 +377,10 @@ body {
   text-align: center;
 }
 
-/* Reused item header from main  */
-
-/* HW4 */
 .socmed-info {
   display: flex;
   justify-content: center;
   gap: 24px;
-  /* Not part of H4 instructions */
   margin-top: 8px;
 }
 
@@ -432,7 +397,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* HW5 */
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -444,9 +408,6 @@ body {
 .socmed-icon {
   fill: var(--cloud);
 }
-
-/* HW4 */
-/* Fifth Section */
 
 .fifth-section {
   padding: 96px 0;
@@ -473,7 +434,6 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--light-slate);
-  /* HW5 */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -487,8 +447,6 @@ body {
 .customer-icon {
   fill: currentColor;
 }
-
-/* FOOTER */
 
 .footer {
   background-color: var(--navy-blue);
@@ -573,8 +531,6 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* HW6 */
-
 .footer-form-header {
   margin-bottom: 16px;
   font-weight: 500;
@@ -649,12 +605,6 @@ body {
   fill: var(--cloud);
 }
 
-/* FORTFOLIO PAGE */
-
-/* Main */
-
-/* Buttons */
-
 .services-section {
   padding: 48px 0 120px 0;
 }
@@ -671,7 +621,6 @@ body {
   padding: 12px 24px;
   border: 1px solid var(--cornflower);
   border-radius: 4px;
-  /* HW5 */
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -691,20 +640,12 @@ body {
   color: var(--white);
   background-color: var(--ocean);
   border: 1px solid transparent;
-  /* HW4 */
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
 }
-
-/* Reused item header from main  */
-
-/* Converting all images to block element */
-
 img {
   display: block;
 }
-
-/* Services List */
 
 .svc.list {
   display: flex;
@@ -720,10 +661,8 @@ img {
   border-top: none;
 }
 
-/* HW4 */
 .svc.link {
   display: block;
-  /* HW5 */
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -733,7 +672,6 @@ img {
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
 }
 
-/* HW5 */
 .svc-img {
   position: relative;
   overflow: hidden;
@@ -758,8 +696,6 @@ img {
 .svc.link:focus .svc-img-desc {
   transform: translateY(0%);
 }
-
-/* Modal */
 
 .order-modal {
   position: fixed;
@@ -873,7 +809,6 @@ img {
   border-color: var(--iris);
 }
 
-/* To focus on the SVG icon */
 .modal-form-input:focus + .modal-form-input-icon {
   fill: var(--iris);
 }
@@ -962,23 +897,16 @@ img {
   border: none;
   border-radius: 4px;
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  /* Not included in GoIT, I just added based from Figma */
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   margin: 0 auto;
 }
-
-/* Not included in GoIT, I just added based from Figma */
 .modal-form-button:hover,
 .modal-form-button:focus {
   background-color: var(--ocean);
   border: none;
 }
 
-/* TABLET SCREEN */
-
 @media screen and (min-width: 768px) {
-  /* INDEX PAGE */
-
   .menu-toggle {
     display: none;
   }
@@ -986,8 +914,6 @@ img {
   .menu-container {
     display: none;
   }
-
-  /* HEADER */
 
   .logo {
     padding: 24px 0;
@@ -1029,10 +955,6 @@ img {
     margin: 0 auto;
     padding: 0 15px;
   }
-
-  /* Navigation Items */
-
-  /* HW5 */
   .active.link {
     color: var(--ocean);
     position: relative;
@@ -1073,8 +995,6 @@ img {
     color: var(--ocean);
   }
 
-  /* Address */
-
   .contacts {
     font-style: normal;
   }
@@ -1091,14 +1011,9 @@ img {
     gap: 12px;
   }
 
-  /* MAIN */
-
-  /* First Section */
-
   .hero-section {
     background-color: var(--navy-blue);
     padding: 112px 0;
-    /* HW4 */
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
@@ -1136,7 +1051,6 @@ img {
     border: none;
     border-radius: 4px;
     margin: 0 auto;
-    /* HW5 */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -1144,8 +1058,6 @@ img {
   .hero-button:focus {
     background-color: var(--ocean);
   }
-
-  /* Second Section */
 
   .visually-hidden {
     position: absolute;
@@ -1186,10 +1098,6 @@ img {
     flex-basis: calc((100% - 24px) / 2);
   }
 
-  /* HW4 */
-
-  /* Third Section */
-
   .header-title {
     font-size: 36px;
     line-height: 1.11;
@@ -1209,16 +1117,9 @@ img {
   .service-info {
     flex-basis: calc((100% - 24px) / 2);
   }
-
-  /* Fourth Section */
-
   .team.list {
     gap: 64px 24px;
   }
-
-  /* HW4 */
-  /* Fifth Section */
-
   .customer {
     display: flex;
     flex-wrap: wrap;
@@ -1229,9 +1130,6 @@ img {
     width: calc((100% - 232px) / 3);
     height: 88px;
   }
-
-  /* FOOTER */
-
   .footer {
     padding: 97.5px 0;
   }
@@ -1240,9 +1138,6 @@ img {
     display: inline-block;
     margin-bottom: 16px;
   }
-
-  /* HW4 */
-
   .footer .container {
     display: flex;
     gap: 0 24px;
@@ -1268,12 +1163,6 @@ img {
     line-height: 1;
   }
 
-  /* FORTFOLIO PAGE */
-
-  /* Main */
-
-  /* Buttons */
-
   .services-section {
     padding: 64px 0 120px 0;
   }
@@ -1290,7 +1179,6 @@ img {
     padding: 12px 24px;
     border: 1px solid var(--cornflower);
     border-radius: 4px;
-    /* HW5 */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -1309,20 +1197,13 @@ img {
     color: var(--white);
     background-color: var(--ocean);
     border: 1px solid transparent;
-    /* HW4 */
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
 
-  /* Reused item header from main  */
-
-  /* Converting all images to block element */
-
   img {
     display: block;
   }
-
-  /* Services List */
 
   .svc.list {
     display: flex;
@@ -1331,9 +1212,6 @@ img {
     row-gap: 48px;
     justify-content: left;
   }
-
-  /* Modal */
-
   .modal-window {
     transform: translate(-50%, -50%) scale(1);
   }
@@ -1394,20 +1272,12 @@ img {
   }
 }
 
-/* DESKTOP SCREEN */
-
 @media screen and (min-width: 1158px) {
-  /* INDEX PAGE */
-
-  /* HEADER */
-
   .container {
     max-width: 1158px;
     margin: 0 auto;
     padding: 0 15px;
   }
-
-  /* Navigation Items */
 
   .active::after {
     bottom: -5%;
@@ -1433,19 +1303,12 @@ img {
     flex-wrap: nowrap;
     flex-direction: row;
   }
-
-  /* MAIN */
-
-  /* First Section */
-
   .hero-section {
     padding: 188px 0;
     /* HW4 */
     background-size: auto;
     height: 600px;
   }
-
-  /* Second Section */
 
   .info .list-header,
   .svc .list-header {
@@ -1467,8 +1330,6 @@ img {
     flex-basis: calc((100% - 72px) / 4);
   }
 
-  /* HW4 */
-
   .icon-container {
     display: flex;
     align-items: center;
@@ -1478,8 +1339,6 @@ img {
     border-radius: 4px;
     margin-bottom: 8px;
   }
-
-  /* Third Section */
 
   .header-title {
     font-size: 36px;
@@ -1505,8 +1364,6 @@ img {
     flex-basis: calc((100% - 48px) / 3);
   }
 
-  /* Fourth Section */
-
   .fourth-section {
     padding: 120px 0;
   }
@@ -1515,14 +1372,10 @@ img {
     display: flex;
     gap: 24px;
   }
-
-  /* Reused third section header from main */
-
   .team-member {
     background-color: var(--white);
     flex-basis: calc((100% - 72px) / 4);
     border-radius: 0 0 4px 4px;
-    /* HW4 */
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
@@ -1539,15 +1392,10 @@ img {
   .list-text {
     text-align: center;
   }
-
-  /* Reused item header from main  */
-
-  /* HW4 */
   .socmed-info {
     display: flex;
     justify-content: center;
     gap: 24px;
-    /* Not part of H4 instructions */
     margin-top: 8px;
   }
 
@@ -1564,7 +1412,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* HW5 */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -1576,9 +1423,6 @@ img {
   .socmed-icon {
     fill: var(--cloud);
   }
-
-  /* HW4 */
-  /* Fifth Section */
 
   .fifth-section {
     padding: 120px 0;
@@ -1603,7 +1447,6 @@ img {
     align-items: center;
     justify-content: center;
     color: var(--light-slate);
-    /* HW5 */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
@@ -1617,8 +1460,6 @@ img {
   .customer-icon {
     fill: currentColor;
   }
-
-  /* FOOTER */
 
   .footer {
     background-color: var(--navy-blue);
@@ -1640,8 +1481,6 @@ img {
     display: inline-block;
     margin-bottom: 16px;
   }
-
-  /* HW4 */
 
   .footer > .container {
     display: flex;
@@ -1681,7 +1520,6 @@ img {
     display: flex;
     align-items: center;
     justify-content: center;
-    /* HW5 */
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -1693,13 +1531,6 @@ img {
   .footer-socmed-svg {
     fill: var(--cloud);
   }
-
-  /* FORTFOLIO PAGE */
-
-  /* Main */
-
-  /* Buttons */
-
   .services-section {
     padding: 96px 0 120px 0;
   }
@@ -1716,7 +1547,6 @@ img {
     padding: 12px 24px;
     border: 1px solid var(--cornflower);
     border-radius: 4px;
-    /* HW5 */
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
       border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
@@ -1739,16 +1569,9 @@ img {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
-
-  /* Reused item header from main  */
-
-  /* Converting all images to block element */
-
   img {
     display: block;
   }
-
-  /* Services List */
 
   .svc.list {
     display: flex;
@@ -1766,11 +1589,8 @@ img {
     border: 1px solid var(--cornflower);
     border-top: none;
   }
-
-  /* HW4 */
   .svc.link {
     display: block;
-    /* HW5 */
     transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }
 
@@ -1779,8 +1599,6 @@ img {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
   }
-
-  /* HW5 */
   .svc-img {
     position: relative;
     overflow: hidden;
@@ -1805,8 +1623,6 @@ img {
   .svc.link:focus .svc-img-desc {
     transform: translateY(0%);
   }
-
-  /* Modal */
 
   .order-modal {
     position: fixed;
@@ -1871,8 +1687,6 @@ img {
   .modal-button-close:focus {
     fill: var(--white);
   }
-
-  /* HW6 */
   .modal-window {
     padding: 72px 24px 24px;
   }
@@ -1918,8 +1732,6 @@ img {
   .modal-form-input:focus {
     border-color: var(--iris);
   }
-
-  /* To focus on the SVG icon */
   .modal-form-input:focus + .modal-form-input-icon {
     fill: var(--iris);
   }
@@ -2008,20 +1820,14 @@ img {
     border: none;
     border-radius: 4px;
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    /* Not included in GoIT, I just added based from Figma */
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
     margin: 0 auto;
   }
-
-  /* Not included in GoIT, I just added based from Figma */
   .modal-form-button:hover,
   .modal-form-button:focus {
     background-color: var(--ocean);
     border: none;
   }
-
-  /* HW6 */
-
   .footer-form-header {
     margin-bottom: 16px;
     font-weight: 500;
